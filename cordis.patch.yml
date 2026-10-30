@@ -1,0 +1,5 @@
+# dsh-cow-pet：把插件插进 bundle 里
+# 与 dsh-balance-card / whale-girl 的写法一致：只 insert 一个条目，模块名即包名。
+- insert:
+    - id: dsh-cow-pet
+      name: dsh-cow-pet
