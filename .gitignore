@@ -1,0 +1,10 @@
+node_modules/
+*.tgz
+*.log
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+_check*.png
+_preview.png
+_align.png
