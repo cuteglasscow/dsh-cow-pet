@@ -1,0 +1,34 @@
+{
+  "name": "dsh-cow-pet",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "玻璃牛桌宠：悬浮在 DSH 窗口角落的奶牛挂件，会呼吸、能拖动、右键可调大小，思考/等权限/干完都会冒气泡",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "plugin",
+    "desktop-pet",
+    "widget",
+    "mascot"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "files": [
+    "lib",
+    "assets",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node test/plugin-check.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
